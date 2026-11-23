@@ -1,45 +1,50 @@
-/*  your css code here. If applicable */
-         body {
-            background-color: rgb(204, 204, 204);
-            font-family: Arial, sans-serif;
-        }
+body {
+	background-color: rgb(204, 204, 204);
+	font-family: Arial, sans-serif;
+}
 
-        h1, h2 {
-            text-align: center;
-        }
+h1, h2 {
+	text-align: center;
+}
 
-        .playlist {
-            background-color: white;
-            width: 80%;
-            margin: auto;
-            padding: 20px;
-            border-radius: 10px;
-        }
+.playlist {
+	background-color: rgb(255, 255, 255);
+	width: 90%;
+	margin: auto;
+	padding: 15px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
 
-        ul {
-            padding: 0;
-        }
+ul {
+	padding-left: 10px;
+}
 
-        li {
-            list-style-type: none;
-            padding: 10px;
-        }
+li {
+	list-style-type: none;
+	padding: 5px 0;
+}
 
-        a {
-            text-decoration-line: none;
-            color: blue;
-        }
+a {
+	text-decoration-line: none;
+	color: black;
+}
 
-        .player_one,
-        .player_two {
-            background-color: rgb(255, 255, 255);
-            padding: 20px;
-            border-radius: 10px;
-            width: 80%;
-            margin: 20px auto;
-            display: block;
-        }
+.player_one {
+	background-color: rgb(255, 255, 255);
+	padding: 15px;
+	border: 1px solid black;
+	border-radius: 5px;
+	width: 80%;
+	margin: 20px auto;
+}
 
-        video, audio {
-            width: 100%;
-        }
+.player_two {
+	background-color: rgb(255, 255, 255);
+	padding: 10px;
+	border-radius: 5px;
+}
+
+video, audio {
+	width: 100%;
+}
